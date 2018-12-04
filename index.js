@@ -41,7 +41,7 @@ var CreateFaviconsPartialPlugin = (function () {
     }
   }
 
-  CreateFilePlugin.prototype.apply = function (compiler) {
+  CreateFaviconsPartialPlugin.prototype.apply = function (compiler) {
     const createFile = () => _createFile(this.options.path, this.options.fileName, this.options.inputFilePath);
 
     if (!!compiler.hooks) {
