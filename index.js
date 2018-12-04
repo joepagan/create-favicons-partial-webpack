@@ -6,19 +6,19 @@ var CreateFaviconsPartialPlugin = (function () {
 
   function CreateFaviconsPartialPlugin(options){
     if (options === void 0) {
-      throw new Error(`Please provide 'options' for the CreateFilePlugin config`);
+      throw new Error(`Please provide 'options' for the CreateFaviconsPartialPlugin config`);
     }
 
     if (options.path == null) {
-      throw new Error(`Please provide 'options.path' in the CreateFilePlugin config`);
+      throw new Error(`Please provide 'options.path' in the CreateFaviconsPartialPlugin config`);
     }
 
     if (options.fileName == null) {
-      throw new Error(`Please provide 'options.fileName' in the CreateFilePlugin config`);
+      throw new Error(`Please provide 'options.fileName' in the CreateFaviconsPartialPlugin config`);
     }
 
     if (options.inputFilePath == null) {
-      throw new Error(`Please provide 'options.inputFilePath' in the CreateFilePlugin config`);
+      throw new Error(`Please provide 'options.inputFilePath' in the CreateFaviconsPartialPlugin config`);
     }
 
     this.options = options;
@@ -51,7 +51,7 @@ var CreateFaviconsPartialPlugin = (function () {
     }
   };
 
-  return CreateFilePlugin;
+  return CreateFaviconsPartialPlugin;
 })();
 
-module.exports = CreateFilePlugin;
+module.exports = CreateFaviconsPartialPlugin;
