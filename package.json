@@ -1,6 +1,6 @@
 {
   "name": "create-favicons-partial-webpack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack plugin for creating a favicons twig partial generated from the output of favicons-webpack-plugin",
   "main": "index.js",
   "repository": {
