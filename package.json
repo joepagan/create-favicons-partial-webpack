@@ -17,7 +17,8 @@
     "url": "https://github.com/joepagan/create-favicons-partial-webpack/issues"
   },
   "homepage": "https://github.com/joepagan/create-favicons-partial-webpack#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "write": "^1.0.3"
   }
 }
